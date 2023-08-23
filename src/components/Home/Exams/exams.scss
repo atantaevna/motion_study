@@ -1,0 +1,368 @@
+#exams{
+  .exams{
+    &--title{
+      h1{
+        width: 163px;
+        color: var(--text-212121, #212121);
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 200px 0 0 0;
+      }
+      p{
+        width: 675px;
+        color: var(--text-1212, #010D39);
+        text-align: center;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 30px 0 60px 0;
+      }
+    }
+    &--text{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__name{
+        width: 510px;
+        height: 576px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 5px 8px 24px 0px rgba(0, 0, 0, 0.15);
+        img{
+          width: 100%;
+        }
+        &--nom{
+          margin: 0 0 0 25px;
+          h1{
+            color: #001254;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            margin: 13px 0 13px 0;
+          }
+          h2{
+            color: #002AC0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+            margin: -15px 0 0 0;
+          }
+          p{
+            color: #000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 82%;
+          }
+        }
+        h3{
+          text-align: center;
+          margin: 13px 0 0 0;
+          color: #1AA2EE;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+
+      }
+      &__aptis{
+        &--for{
+          margin: -13px 0 0 80px;
+          &__hello{
+            width: 589px;
+            height: 178px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid #BBB;
+            background: #FFF;
+            display: flex;
+            align-items: center;
+            margin: 17px 0 0 0;
+            &--is{
+              &__iii{
+                img{
+                  display: none;
+                }
+              }
+            }
+            &--img{
+              &__bbb{
+                img {
+                  display: none;
+                }
+              }
+            }
+            &--it{
+              &__fff{
+                img{
+                  display: none;
+                }
+              }
+            }
+
+            &--nomer{
+              margin: -38px 0 0 0;
+              button{
+                border: none;
+                display: inline-flex;
+                padding: 2px 15px 3px 13px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                background: rgba(0, 117, 255, 0.15);
+
+                color: #002AC0;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+              }
+              h1{
+                width: 243px;
+                color: #001254;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin: 5px 0 5px 0;
+              }
+              p{
+                width: 314px;
+                color: #010D39;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .container{
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #exams .exams--text__name{
+    width: 466px;
+    height: 546px;
+    flex-shrink: 0;
+  }
+  #exams .exams--text__aptis--for__hello{
+    width: 579px;
+    height: 170px;
+  }
+  #exams .exams--text__aptis--for {
+    margin: -13px 0 0 23px;
+  }
+}
+@media (max-width: 1024px) {
+  #exams .exams--text__name{
+    width: 348px;
+    height: 408px;
+    border-radius: 6px;
+  }
+  #exams .exams--text__name--nom h2{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  #exams .exams--text__name--nom h1{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+  }
+  #exams .exams--text__name--nom p{
+    font-size: 9px;
+    font-weight: 400;
+  }
+  #exams .exams--text__name h3{
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 0 0 0;
+  }
+  #exams .exams--text__aptis--for__hello{
+    width: 434px;
+    height: 125px;
+  }
+  #exams .exams--text__aptis--for__hello--nomer h1{
+    width: 196px;
+    font-size: 13.522px;
+    font-weight: 500;
+  }
+  #exams .exams--text__aptis--for__hello--nomer p{
+    width: 235px;
+    font-size: 9px;
+    font-weight: 400;
+  }
+
+  #exams .exams--text__aptis--for__hello--nomer button{
+    display: inline-flex;
+    padding: 2px 10px 2px 11px;
+    justify-content: center;
+    align-items: center;
+  }
+  #exams .exams--text__aptis--for__hello--img img{
+    width: 91%;
+  }
+  #exams .exams--text__aptis--for__hello--nomer {
+    margin: -5px 11px 0 -8px;
+  }
+  #exams .exams--text__aptis--for__hello--is img{
+    margin: 0 20px 0 17px;
+    width: 69%;
+  }
+  #exams .exams--text__aptis--for__hello--it img {
+    margin: 0px 20px 0px 14px;
+    width: 71%;
+  }
+  #exams .exams--title h1{
+    width: 118px;
+    font-size: 38px;
+    font-weight: 500;
+  }
+  #exams .exams--title p{
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 768px) {
+  #exams .exams--text {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #exams .exams--text__name{
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  #exams .exams--title p {
+    width: 515px;
+  }
+}
+@media (max-width: 450px) {
+  #exams .exams--title p {
+    width: 396px;
+    margin: 0 0 25px -23px;
+  }
+}
+@media (max-width: 400px) {
+  #exams .exams--text__aptis--for__hello {
+    display: flex;
+    width: 335px;
+    height: 261px;
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 25px 0 0 0;
+  }
+  #exams .exams--text__aptis--for__hello--is img{
+    display: none;
+  }
+  #exams .exams--text__aptis--for__hello--is__iii img {
+    display: block;
+    width: 100%;
+    margin: 0 0;
+  }
+  #exams .exams--text__aptis--for__hello--img img{
+    display: none;
+  }
+  #exams .exams--text__aptis--for__hello--img__bbb img{
+    display: block;
+    width: 100%;
+    margin: 0 0;  }
+  #exams .exams--text__aptis--for__hello--it img{
+    display: none;
+  }
+  #exams .exams--text__aptis--for__hello--it__fff img{
+    display: block;
+    width: 100%;
+    margin: 0 0;
+  }
+  #exams .exams--text__aptis--for__hello--nomer {
+    margin: 2px 11px 0 10px;
+  }
+  #exams .exams--text__aptis--for__hello--nomer h1{
+    width: 302px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #exams .exams--text__aptis--for {
+    margin: -13px 0 0 0;
+  }
+  #exams .exams--text__aptis--for__hello--nomer p{
+    width: 299px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  #exams .exams--title p{
+    width: 334px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 40px 0;
+    text-align: start;
+  }
+  #exams .exams--title h1{
+    width: 336px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: start;
+  }
+  #exams .exams--text__name{
+    width: 335px;
+    height: 385px;
+  }
+}
+@media (max-width: 320px) {
+  #exams .exams--title p {
+    width: 282px;}
+  #exams .exams--text__name {
+    width: 280px;
+    height: 360px;
+  }
+  #exams .exams--text__name--nom {
+    margin: 0 0 0 10px;
+  }
+  #exams .exams--text__name h3 {
+    font-size: 10px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+  }
+  #exams .exams--text__aptis--for__hello {
+    width: 275px;
+    height: 213px;
+  }
+  #exams .exams--text__aptis--for__hello--nomer {
+    margin: 2px 11px 0 65px;
+  }
+  #exams .exams--text__aptis--for__hello--nomer h1 {
+    width: 278px;
+    margin: -5px 20px 0px 0;
+  }
+  #exams .exams--text__aptis--for__hello--nomer p {
+    width: 256px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: -2px 0 0px 0px;
+  }
+
+
+}
