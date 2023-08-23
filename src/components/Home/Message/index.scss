@@ -1,5 +1,5 @@
 #message {
-    padding: 12% 0 8% 0;
+    padding: 12% 0 5% 0;
 
     .container {
         .send {
@@ -286,11 +286,9 @@
     position: fixed;
     width: 500px;
     height: 430px;
-    background: #ffffff;
+    background: #3c3d42;
     border-radius: 10px;
     z-index: 100;
-    border: 1px solid rgb(74, 41, 246);
-
     // position: fixed;
     // top: 0;
     // right: 30%;
@@ -306,7 +304,7 @@
 
     h2 {
         font-size: 34px;
-        color: #000000;
+        color: #FFF;
         cursor: pointer;
         padding-left: 220px;
 
@@ -316,10 +314,10 @@
     h1 {
         display: flex;
         align-items: center;
-        color: #000000;
+        color: #FFF;
         font-size: 24px;
         text-align: start;
-        border: 2px solid rgba(74, 41, 246, 0.55);
+        border: 2px solid #9ccd62;
         width: 400px;
         height: 50px;
         margin: 15px 40px;
@@ -719,7 +717,6 @@
 
 
     #message {
-        margin: 0 0 -600px 0;
 
         .container {
             .send {
@@ -1046,17 +1043,11 @@
 
         .container {
             .send {
-                width: 300px;
-                height: 234px;
-                left: 16%;
-                top: 15%;
 
                 h4 {}
 
                 button {
 
-                    padding: 14px 0 13px 0;
-                    width: 130px;
 
                     &:hover {}
 
@@ -1064,14 +1055,9 @@
 
                 h1 {}
 
-                p {
-
-                    padding: 14px 0 18px 0;
-
-                }
+                p {}
 
                 &--img {
-                    padding: 0px 0 19px 0;
 
                     img {}
                 }
@@ -1080,48 +1066,27 @@
             .message {
 
                 &--input {
-                    width: 367px;
-                    height: 500px;
 
-                    button {
-                        width: 105px;
-                        padding: 11px 65px 11px 53px;
-                        margin: 23px 0 0 42px;
-
-                    }
+                    button {}
 
                     &:hover {}
 
                     &__name {
 
-                        input {
-                            width: 284px;
-                            padding: 30px 0 0 0;
-
-                        }
+                        input {}
                     }
 
                     &__phone {
-                        input {
-                            width: 284px;
-                            padding: 30px 0 0 0;
-                        }
+                        input {}
 
                     }
 
                     &__group {
-                        input {
-                            padding: 30px 0 0 0;
-                            width: 284px;
-                        }
+                        input {}
                     }
 
                     &__help {
-                        input {
-                            width: 284px;
-                            padding: 30px 0 0 0;
-                            height: 20px;
-                        }
+                        input {}
                     }
 
                     h1 {}
@@ -1130,8 +1095,6 @@
                 }
 
                 &--contact {
-                    width: 367px;
-                    height: 520px;
 
                     &__info {
 
@@ -1149,23 +1112,13 @@
 
                     &__map {
 
-                        iframe {
-                            width: 289px;
-                            height: 192px;
-                        }
+                        iframe {}
                     }
                 }
 
                 &--line {
-                    height: 550px;
-                    width: 308px;
-                    right: -50px;
-                    top: -535px;
 
                     div {
-                        left: -23px;
-                        bottom: 19px;
-
                         svg {}
                     }
                 }
@@ -1174,25 +1127,13 @@
     }
 
     .valve {
-        top: 18%;
-        left: 8%;
-        width: 374px;
-        height: 275px;
 
         h2 {}
 
-        h1 {
-            font-size: 18px;
-            width: 330px;
-            height: 31px;
-            margin: 9px 11px;
-        }
+        h1 {}
     }
 
-    .block1 {
-        top: 73px;
-        left: 49px;
-    }
+    .block1 {}
 }
 
 @media(max-width:400px) {
@@ -1215,7 +1156,9 @@
 
                 }
 
-                h1 {}
+                h1 {
+                        
+                }
 
                 p {
                     font-size: 14px;
@@ -1257,7 +1200,7 @@
                     &__phone {
                         input {
                             width: 230px;
-                            padding: 30px 0 0 0;
+                            padding: 35px 0 0 0;
                             margin-left: 35px;
                         }
 
@@ -1467,7 +1410,6 @@
 
 
     #message {
-        padding-bottom: 400px;
 
         .container {
             .send {
@@ -1494,8 +1436,6 @@
             .message {
 
                 &--input {
-                    height: 469px;
-                    width: 279px;
 
                     button {}
 
@@ -1525,8 +1465,6 @@
                 }
 
                 &--contact {
-                    height: 400px;
-                    width: 274px;
 
                     &__info {
 
@@ -1534,31 +1472,21 @@
 
                         h4 {}
 
-                        h2 {
-                            font-size: 15px;
-                        }
+                        h2 {}
                     }
 
                     &__telegram {
-                        padding: 20px 0 5px 30px;
 
                         h1 {}
                     }
 
                     &__map {
 
-                        iframe {
-                            width: 205px;
-                            height: 121px;
-                        }
+                        iframe {}
                     }
                 }
 
                 &--line {
-                    height: 420px;
-                    width: 211px;
-                    right: -43px;
-                    top: -410px;
 
                     div {
                         svg {}
@@ -1576,4 +1504,111 @@
     }
 
     .block1 {}
+}
+
+// @media(max-width:576px) {
+
+
+//     #message {
+
+//         .container {
+//             .send {
+
+//                 h4 {}
+
+//                 button {
+
+
+//                     &:hover {}
+
+//                 }
+
+//                 h1 {}
+
+//                 p {}
+
+//                 &--img {
+
+//                     img {}
+//                 }
+//             }
+
+//             .message {
+
+//                 &--input {
+
+//                     button {}
+
+//                     &:hover {}
+
+//                     &__name {
+
+//                         input {}
+//                     }
+
+//                     &__phone {
+//                         input {}
+
+//                     }
+
+//                     &__group {
+//                         input {}
+//                     }
+
+//                     &__help {
+//                         input {}
+//                     }
+
+//                     h1 {}
+
+//                     input {}
+//                 }
+
+//                 &--contact {
+
+//                     &__info {
+
+//                         h1 {}
+
+//                         h4 {}
+
+//                         h2 {}
+//                     }
+
+//                     &__telegram {
+
+//                         h1 {}
+//                     }
+
+//                     &__map {
+
+//                         iframe {}
+//                     }
+//                 }
+
+//                 &--line {
+
+//                     div {
+//                         svg {}
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .valve {
+
+//         h2 {}
+
+//         h1 {}
+//     }
+
+//     .block1 {}
+// }
+
+.message-btn{
+    background: #212121;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
 }
