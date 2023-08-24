@@ -96,12 +96,15 @@ const Message = () => {
 
     }
   }
-
+  // const str = send ?  setSend(false) : setSend(true)
+  console.log(send)
   return (
-    <div id="message">
-      <div className="container">
+    <div   id="message">
+      <div  className="container">
         <div className="message">
-          <div className="message--input">
+          <div
+              onClick={() => setSend(false)}
+              className="message--input">
             <h1>{translations[language].message}</h1>
             <div className="message--input__name">
               <input
@@ -163,7 +166,8 @@ const Message = () => {
               <button onClick={() => setDel(!del)}>{translations[language].open}</button>
             </center>
           </div>
-          <div className="message--contact">
+          <div onClick={() => setSend(false)}
+             className="message--contact">
             <div className="message--contact__info">
               <h1>{translations[language].info}</h1>
               <div
@@ -223,8 +227,11 @@ const Message = () => {
               ></iframe>
             </div>
           </div>
-          <div className="message--line ">
-            <div onClick={() => setSend(!send)}>
+
+          <div
+                className="message--line ">
+            <div
+                onClick={() => setSend(!send)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="56"
@@ -261,7 +268,7 @@ const Message = () => {
             <button onClick={() => setLogo(!logo)}>Done</button>
           </center>
         </div>
-        <div style={{ display: logo ? "block" : "none" }} className="block1">
+        <div onMouseLeave={() => setLogo(false)} style={{ display: logo ? "block" : "none"  }} className="block1">
           <div className="message--contact__info">
             <div
               style={{

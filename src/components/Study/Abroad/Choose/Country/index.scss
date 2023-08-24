@@ -161,75 +161,167 @@
       border: 2px solid #1aa2ee;
     }
 
-    @media (max-width: 1200px) {
-      #country .country {
-        width: 100%;
-      }
-    }
-    @media (max-width: 1024px) {
-      #country .country {
-        width: 90%;
-        padding: 10.678px 84.017px 19.712px 0;
-        background: #FDFDFD;
-        box-shadow: 0px 0px 17.084745407104492px 0px rgba(0, 0, 0, 0.05);
-      }
+  }
+}
 
+
+@media (max-width: 1200px) {
+  #country .country {
+    width: 1073px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #country .country {
+    width: 893px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #country .country {
+    width: 695px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  #country .country--one h4 {
+    display: none;
+  }
+  #country .country--one h5 {
+    display: none;
+  }
+  #country .country {
+    width: 584px;
+  }
+  #country .country--selects select {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  #country .country--selects select {
+    font-size: 9px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 20rem !important;
+  }
+  #tabs .tabs--content__active--nike {
+    display: none;
+  }
+  #tabs .tabs--content__photo--photo1 img {
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__photo--photo2 img {
+    margin-left: 50px;
+  }
+  #university .university {
+    margin-left: 42px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 17rem !important;
+  }
+  #country .country--selects select {
+    font-size: 13px;
+    width: 124px;
+  }
+  #country .country--one h3 {
+    font-size: 20px;
+  }
+  #country .country {
+    width: 403px;
+  }
+}
+
+@media (max-width: 400px) {
+  #country .country {
+    width: 358px;
+    flex-direction: column;
+  }
+  #country .country--one h3 {
+    font-size: 17px;
+    margin: 20px;
+  }
+  #country .country--selects {
+    margin-left: -12px;
+  }
+  #country {
+    padding: -14px 0 !important;
+  }
+  #university .university--text__type {
+    width: 276px;
+  }
+  #university .university--text__spec {
+    width: 219px;
+  }
+  #university .university--text__language {
+    width: 192px;
+  }
+  #university .university--text__type {
+    width: 257px;
+  }
+  #university .university--text__spec {
+    width: 207px;
+  }
+}
+
+@media (max-width: 320px) {
+  #country .country--one h3 {
+    display: none;
+  }
+  #country .country--selects {
+    flex-direction: column;
+    margin-left: -177px;
+  }
+  #footer .footer h1 {
+    width: 239px;
+  }
+  #country .country {
+    width: 15rem;
+  }
+  #university .university--title img {
+    width: 15rem;
+  }
+  #university .university--text__type {
+    width: 12rem;
+  }
+  #university .university--text__spec {
+    width: 9rem;
+  }
+  #university .university--text__spec h2 {
+    margin: 0.49px 0 0 102px;
+    font-size: 11px;
+  }
+  #university .university--text__language {
+    width: 8rem;
+  }
+  #tabs .tabs--content__active--nike__fee--no {
+    width: 244px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    width: 246px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    width: 249px;
+    font-size: 17px;
+  }
+  #tabs .tabs--content__active--nike__awards {
+    margin-bottom: 54px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 18rem !important;
+
+    #tabs .tabs--content__photo--photo2 img {
+      margin-left: 50px;
     }
-    @media (max-width: 768px) {
-      #country .country img {
-        width: 30%;
-      }
-      #country .country {
-        width: 87%;
-        padding: 12.678px 84.017px 19.712px 16px;
-        height: 90%;
-      }
-      #country .country--one h3 {
-        font-size: 20px;
-      }
+
+    #university .university {
+      margin-left: 42px;
     }
-    @media (max-width: 576px) {
-      #country h1 {
-        font-size: 32px;
-        padding: 30px 0;
-      }
-      #country .country {
-        width: 80%;
-        padding: 12.678px 84.017px 19.712px;
-      }
-      #country .country img {
-        width: 30%;
-        margin: 0 0px 0 -66px;
-      }
-      #country .country--one h4 {
-        margin: 0 0 10px 0;
-      }
-      #country .country--one h3 {
-        font-size: 18px;
-      }
-      #country .country--one h4 {
-        margin: 0 0 10px 0;
-        font-size: 18px;
-      }
-      #country .country--one h5 {
-        font-size: 18px;
-      }
-    }
-    @media (max-width: 450px) {
-      #country h1 {
-        font-size: 30px;
-        padding: 20px 0;
-      }
-      #country .country img {
-        margin: 0 15px 0 -66px;
-      }
-      #country .country {
-        width: 55%;
-        display: flex;
-        padding: 12.678px 84.017px 19.712px;
-        align-items: center;
-        flex-wrap: wrap;
-      }
+
+    #tabs .tabs--content__active--nikes {
+      width: 17rem !important;
     }
   }
 }

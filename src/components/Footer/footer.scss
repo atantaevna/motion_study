@@ -100,3 +100,35 @@
     padding: 60px 0;
   }
 }
+
+@media (max-width: 400px) {
+  #footer {
+    margin-top: -317px;
+  }
+  #our .our--title__mister--mr__fotos {
+    margin-left: 40px;
+  }
+  #our .our--title__mister--kl__fotos {
+    margin-left: 40px;
+  }
+  #footer {
+    margin-top: 60px;
+  }
+  #abroad .abroad--right__img img {
+    width: 265px;
+    height: 313px;
+    margin: -127px 0 0 -39px;
+  }
+  #flag .flag--select select {
+    font-size: 11px;
+  }
+  #university .university--title img {
+    width: 318px;
+  }
+  #university .university--text__type {
+    width: 269px;
+  }
+  #university .university--text__spec {
+    width: 222px;
+  }
+}

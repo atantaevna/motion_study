@@ -5,18 +5,8 @@ import {data} from "../../../../Header/FaceBac";
 import {Link, NavLink} from "react-router-dom";
 import {getPrREC} from "../../../../../Store/Reducers/Action";
 import {useDispatch} from "react-redux";
-import america from "../../../../../Image/amertica.png";
-import greatBritan from "../../../../../Image/greatBritan.svg";
-import austria from "../../../../../Image/austria.svg";
-import germany from "../../../../../Image/germany.svg";
-import holland from "../../../../../Image/holland.svg";
-import ireland from "../../../../../Image/ireland.svg";
-import spain from "../../../../../Image/spain.svg";
-import italy from "../../../../../Image/italy.svg";
-import canada from "../../../../../Image/canada.svg";
-import cyprus from "../../../../../Image/cyprus.svg";
+
 import China from "../../../../../Image/China.svg";
-import latvia from "../../../../../Image/latvia.svg";
 import {useLanguage} from "../../../../LanguageFac/LanguageContext";
 
 const Country = () => {
