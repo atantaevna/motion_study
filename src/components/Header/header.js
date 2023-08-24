@@ -129,7 +129,8 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="header--men">
+          <div className="header--men"
+          >
             {burger ? (
               <RxHamburgerMenu
                 onClick={() => setBurger(false)}

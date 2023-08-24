@@ -180,3 +180,182 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  #university .university--title img {
+    width: 480px;
+  }
+  #tabs .tabs--bloc {
+    width: 1116px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #university .university--title img {
+    width: 370px;
+    margin: 24px;
+  }
+  #tabs .tabs--bloc {
+    width: 53rem;
+  }
+  #tabs .tabs--content__active {
+    flex-direction: column;
+    align-items: center;
+  }
+  #tabs .tabs--content__photo--photo1 img {
+    margin: -4px 10px 40px 0;
+    width: 308px;
+    height: 264px;
+  }
+  #tabs .tabs--content__photo--photo2 img {
+    margin: -9px 32px -1px 2px;
+    width: 281px;
+    height: 285px;
+  }#tabs .tabs .tabs1 {
+     width: 904px;
+   }
+}
+
+@media (max-width: 992px) {
+  #university .university--text {
+    margin: 126px 0 0 -32px;
+  }
+  #university .university--title img {
+    width: 305px;
+    margin: -12px;
+  }
+  #tabs .tabs--bloc {
+    width: 51rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #university .university {
+    flex-direction: column;
+  }
+  #tabs .tabs--bloc {
+    width: 40rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 709px;
+  }
+  #university .university--title img {
+    width: 439px;
+    margin: -12px;
+  }
+}
+
+@media (max-width: 576px) {
+  #tabs .tabs--bloc {
+    width: 30rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 528px;
+  }
+}
+
+@media (max-width: 450px) {
+  #university .university--text {
+    margin: 152px 0 0 -32px;
+    width: 21rem;
+  }
+  #university .university--title img {
+    width: 367px;
+  }
+  #university .university--text__type {
+    width: 285px;
+  }
+  #university .university--text__spec {
+    width: 240px;
+  }
+  #university .university--text__language {
+    width: 217px;
+  }
+  #tabs .tabs--bloc {
+    width: 23rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 408px;
+  }
+}
+
+@media (max-width: 400px) {
+  #tabs .tabs--bloc {
+    width: 20rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 357px;
+  }
+  #tabs .tabs--content__active--nike {
+    width: 43rem;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 16rem;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 292.021px;
+  }
+  #university .university--text__spec {
+    width: 231px;
+  }
+  #university .university--text__language {
+    width: 203px;
+  }
+}
+
+@media (max-width: 375px) {
+  #university .university--title img {
+    width: 324px;
+  }
+  #university .university--title h1 {
+    font-size: 34px;
+  }
+  #tabs .tabs--bloc {
+    width: 19rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 341px;
+  }
+  #country .country {
+    width: 332px;
+  }
+  #country .country--selects select {
+    width: 116px;
+  }
+  #tabs .tabs--content__active--nike {
+    width: 43rem;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 18rem;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 325.021px;
+    height: 1px;
+    background: #212121;
+    margin-top: 40px;
+    margin-bottom: 54px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 15rem;
+  }
+  #university .university--text {
+    width: 25rem;
+  }
+  #university .university--text {
+    width: -15rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #tabs .tabs--bloc {
+    width: 16rem;
+  }
+  #tabs .tabs .tabs1 {
+    width: 284px;
+  }
+  #university .university--text {
+    margin: 152px 0 0 -32px;
+    width: 17rem;
+  }
+
+}
