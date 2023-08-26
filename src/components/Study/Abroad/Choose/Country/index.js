@@ -125,55 +125,26 @@ const Country = () => {
                 {visibleData.map((el) => (
                     <div className="country" onClick={() => dispatch(getPrREC(el))}>
                         <img src={el.img} alt="img"/>
-                        <div className="country--one">
-                            <h4>Name:</h4>
-                            <NavLink to="/tabs">
-                                <h3>{el.name}</h3>
-                            </NavLink>
-                        </div>
-                        <div className="country--one">
-                            <h4>
-                                Location <CiLocationOn/>
-                            </h4>
-                            <h5>{el.Location}</h5>
-                        </div>
-                        <div className="country--one">
-                            <h4>Age:</h4>
-                            <h5>{el.age}</h5>
-                        </div>
+                      <div className="block11">
+                          <div className="country--one">
+                              <h4>Name:</h4>
+                              <NavLink to="/tabs">
+                                  <h3>{el.name}</h3>
+                              </NavLink>
+                          </div>
+                          <div className="country--one">
+                              <h4>
+                                  Location <CiLocationOn/>
+                              </h4>
+                              <h5>{el.Location}</h5>
+                          </div>
+                          <div className="country--one lol">
+                              <h4>Age:</h4>
+                              <h5>{el.age}</h5>
+                          </div>
+                      </div>
                     </div>
                 ))}
-                <div className="pagination">
-                    {Array.from({length: Math.ceil(data.length / itemsPerPage)}).map(
-                        (item, index) => (
-                            <button
-                                key={index}
-                                onClick={() => handlePageChange(index + 1)}
-                                className={currentPage === index + 1 ? "active" : ""}
-                            >
-                                {index + 1}
-                            </button>
-                        )
-                    )}
-                </div>
-                <div className="pagination1">
-                    <center>
-                        <button
-                            className="next-button"
-                            onClick={() => handlePageChange(currentPage - 1)}
-                            disabled={startIndex === 0}
-                        >
-                            Back
-                        </button>
-                        <button
-                            className="next-button"
-                            onClick={() => handlePageChange(currentPage + 1)}
-                            disabled={endIndex >= data.length}
-                        >
-                            Next
-                        </button>
-                    </center>
-                </div>
             </div>
         </section>
     );

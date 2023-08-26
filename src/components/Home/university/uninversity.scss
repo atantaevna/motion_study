@@ -58,13 +58,15 @@
         border-radius: 1.843px;
         border: 1px solid #BBB;
 
+
         h1 {
           color: var(--text-212121, #212121);
-          font-size: 20px;
+          font-size: 18px;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
           text-transform: capitalize;
+          width: 200px;
 
           span {
             color: rgba(51, 51, 51, 0.50);
@@ -129,6 +131,7 @@
           font-weight: 500;
           line-height: normal;
           text-transform: lowercase;
+          width: 600px;
 
           span {
             color: rgba(51, 51, 51, 0.50);
@@ -180,6 +183,10 @@
     }
   }
 }
+
+
+
+
 
 @media (max-width: 1200px) {
   #university .university--title img {
@@ -296,11 +303,43 @@
     width: 292.021px;
   }
   #university .university--text__spec {
-    width: 231px;
+    width: 200px;
   }
   #university .university--text__language {
-    width: 203px;
+    width: 180px;
   }
+  #tabs .tabs--content__active--nikes__now h1 {
+    padding: 15px 79px 15px 27px;
+    //width: 152px;
+  }
+  #university .university--text {
+    margin: 152px 0 0 -29px;
+  }
+  #university .university--text__type {
+    width: 252px;
+  }
+  #university .university--text__type h1 {
+    font-size: 15px;
+  }
+  #university .university--text__date h1 span {
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 20px;
+  }
+  #university .university--text__date{
+    width: 161px;
+  }
+  #university .university--text__location {
+width: 208px;
+  }
+  #university .university--text__spec h1 {
+    width: 300px;
+  }
+  #university .university--title img {
+    width: 290px;
+  }
+
+
+
 }
 
 @media (max-width: 375px) {
@@ -344,6 +383,13 @@
   #university .university--text {
     width: -15rem;
   }
+  #university .university--text {
+    margin: 60px 0 0 77px;
+  }
+  #university .university--text {
+    margin: 129px 0 0 -43px;
+    width: 375px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -356,6 +402,119 @@
   #university .university--text {
     margin: 152px 0 0 -32px;
     width: 17rem;
+    padding: 0;
   }
+  #university .university--title img {
+    width: 250px;
+  }
+  #university .university--text__location {
+    width: 140px;
+  }
+  #university .university--text__date {
+    width: 95px;
+  }
+  #university .university--text__type {
+    width: 187px;
+  }
+  #university .university--text__language {
+    width: 130px;
+  }
+  #university .university--text__spec {
+    width: 149px;
+  }
+  #university .university--text__spec h1 {
+    width: 194px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 12rem !important;
+    height: 1090px;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 220px;
+  }
+  #university .university--text__type h1 span {
+    font-size: 15px;
+  }
+  #university .university--text__type h2 {
+    margin: 0 0 0 0px;
+  }
+  #university .university--text__spec {
+    width: 136px;
+  }
+  #university .university--text__spec h2 {
+    margin: 7.49px 0 0 4px;
+    font-size: 20px;
+  }
+  #university .university--text__language {
+    width: 110px;
+    margin-bottom: 100px;
+  }
+  #tabs .tabs--content__active--nikes__not h1 {
+    padding: 12px 0 0 16px;
+    text-align: center;
+    font-size: 17px;
+  }
+  #tabs .tabs--bloc__description {
+    width: 111px;
+    font-size: 19px;
+  }
+  #tabs .tabs--bloc__cost {
+    font-size: 19px;
+  }
+  #tabs .tabs--bloc__photo {
+    width: 111px;
+    font-size: 19px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar h6 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  #tabs .tabs--content__active--nikes__nots--calendar p {
+    color: #212121;
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__nots img {
+    margin-bottom: 113px;
+    margin-right: 20px;
+    font-size: 10px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast h6 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__cat--cast p {
+    color: #212121;
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__study--studies p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__now h1 {
+    width: 140px;
+    font-size: 17px;
+  }
+  #tabs .tabs--content__active--nikes__now {
+    width: 100%;
+    height: 65px;
+  }
+  #tabs .tabs--content__active--nikes__eli h3 {
+    width: 278px;
+    font-size: 18px;
+  }
+  #university {
+    padding: 170px 0 0 0;
+  }
+  #tabs .tabs--content__active--nikes__sr--srs h5 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nikes__wat {
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center; */
+  }
+
+
+
+
 
 }
