@@ -6,7 +6,7 @@ import home from '../../../../src/Image/here.svg'
 import oper from '../../../../src/Image/oper.svg'
 import {NavLink} from "react-router-dom";
 import iii from '../../../../src/Image/iiiiiiii.svg'
-import bbb from '../../../../src/Image/bbb.svg'
+import bbb from '../../../../src/Image/uaxaxaxa.svg'
 import fff from '../../../../src/Image/fff.svg'
 import {useLanguage} from "../../LanguageFac/LanguageContext";
 
@@ -81,7 +81,7 @@ const Exams = () => {
                                         <p>{translations[language].en8}</p>
                                     </div>
                                 </div>
-                                <div className="exams--text__aptis--for__hello">
+                                <div className="exams--text__aptis--for__hello   lol11">
                                     <div className="exams--text__aptis--for__hello--is">
                                         <NavLink to="/english"><img width={190} height={161} style={{margin: '0 20px 0 25px'}} src={home} alt=""/></NavLink>
                                         <div className="exams--text__aptis--for__hello--is__iii">

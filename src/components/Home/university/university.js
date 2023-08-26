@@ -29,7 +29,7 @@ const University = () => {
                             <h1><span>Specialities : </span> Fashion and Design</h1>
                             <h2>Jewerly design</h2>
                             <h2>Shoe design</h2>
-                            <h2>Interior design</h2>
+                            {/*<h2>Interior design</h2>*/}
                             <h2>landscape design</h2>
                             <h2>Car design</h2>
                             <h2>Photography</h2>

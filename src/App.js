@@ -1,4 +1,4 @@
-import './App.scss';
+
 import React, {useEffect, useState} from "react";
 import {Route, Routes} from "react-router-dom";
 import Home from "./components/Home/home";
@@ -27,6 +27,7 @@ import Spain from "./components/Header/FaceBac/Spain/spain";
 import Ireland from "./components/Header/FaceBac/Ireland/ireland";
 import Loading from "./components/loading/loading";
 import {LanguageProvider} from "./components/LanguageFac/LanguageContext";
+import './App.scss'
 
 
 function App() {

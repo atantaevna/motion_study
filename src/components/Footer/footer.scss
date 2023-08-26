@@ -65,10 +65,10 @@
     font-weight: 500;
   }
   #footer .footer h1 {
-    width: 122px;
+    width: 20%;
     font-size: 9px;
     font-weight: 500;
-    margin: 12px 0 0 301px;
+    margin: 12px 0 0 297px;
   }
 }
 @media (max-width: 768px) {
@@ -77,6 +77,7 @@
   }
   #footer .footer h1 {
     margin: 12px 0 0 198px;
+    width: 28%;
   }
 
 
@@ -103,16 +104,13 @@
 
 @media (max-width: 400px) {
   #footer {
-    margin-top: -317px;
+    margin-top: -65px;
   }
   #our .our--title__mister--mr__fotos {
     margin-left: 40px;
   }
   #our .our--title__mister--kl__fotos {
     margin-left: 40px;
-  }
-  #footer {
-    margin-top: 60px;
   }
   #abroad .abroad--right__img img {
     width: 265px;
