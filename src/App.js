@@ -43,7 +43,7 @@ function App() {
     return (
         <>
 
-            {/*<Loading load={load}/>*/}
+            <Loading load={load}/>
 
 
             <div className="App" style={{

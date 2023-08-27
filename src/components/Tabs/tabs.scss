@@ -709,2538 +709,320 @@
   }
 }
 
-
-
-
-
-
-///////////////////////////////////
-
-@media(max-width: 1024px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+@media (max-width: 1200px) {
+  #tabs .tabs--bloc {
+    width: 1081px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 405px;
   }
 }
-@media(max-width: 992px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+@media (max-width: 1024px) {
+  #tabs .tabs--content__active--nikes {
+    margin-top: 60px;
+  }
+  #university .university {
+    flex-wrap: wrap;
+  }
+  #tabs .tabs--bloc {
+    width: 926px;
   }
 }
-@media(max-width: 768px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+@media (max-width: 576px) {
+  #tabs .tabs--content__active--nike__nomer img {
+    margin: 0 97px 0 0;
+    width: 100px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h1 {
+    font-size: 28px;
+  }
+  #tabs .tabs--content__active--nike__nomer--a h2 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__duration h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__duration h2 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  #tabs .tabs--content__active--nike__awards h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 {
+    font-size: 18px;
+    margin-left: 110px;
+    width: 290px;
+  }
+  #tabs .tabs--content__active--nike__awards h2 span {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 465.008px;
+    top: 124px;
+  }
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 260.061px;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    top: 62px;
+    width: 260.061px;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 465.008px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p span::before {
+    top: 167px;
+    width: 260.061px;
+  }
+
+  #tabs .tabs--content__active--nike__hover h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hover p span {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hover p {
+    font-size: 18px;
+    margin-left: 80px;
+  }
+  #tabs .tabs--content__active--nike__hovers h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__hovers p {
+    font-size: 18px;
+    margin-left: 80px;
+  }
+  #tabs .tabs--content__active--nike__love h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__love--loves {
+    width: 311px;
+    margin-left: 70px;
+  }
+  #tabs .tabs--content__active--nike__love--loves h6 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__love--loves p {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__fee h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__fee--no {
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  #tabs .tabs--content__active--nike__fee--no h5 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__fee--no p {
+    font-size: 18px;
+    width: 84%;
+  }
+  #tabs .tabs--content__active--nike__tea h1 {
+    font-size: 18px;
+  }
+  #tabs .tabs--content__active--nike__tea p {
+    font-size: 18px;
+    margin-left: 67px;
+    width: 239px;
+  }
+  #tabs .tabs--content__active--nike__nomer {
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__duration {
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__awards{
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__hover{
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__hovers{
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__love{
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__fee{
+    margin-left: 50px;
+  }
+  #tabs .tabs--content__active--nike__tea{
+    margin-left: 50px;
+  }
+  }
+
+
+@media (max-width: 450px) {
+  #tabs .tabs--content__active--nike__nomer {
+    margin-left: 88px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #tabs .tabs--content__active--nike__duration {
+    margin-left: 89px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__awards {
+    margin-left: -22px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__awards h1 span::before {
+    width: 260.008px;
+    top: 145px;
+    left: 111px;
+  }
+  #tabs .tabs--content__active--nike__hover {
+    margin-left: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__hover p span::before {
+    top: 62px;
+    width: 260.061px;
+  }
+  #tabs .tabs--content__active--nike__hovers {
+    margin-left: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__fee h1 {
+    font-size: 18px;
+    margin: 0 0 0 80px;
+  }
+  #tabs .tabs--content__active--nike__tea h1 {
+    font-size: 18px;
+    margin: 0 0 15px 65px;
+  }
+  #tabs .tabs--content__active--nike {
+    padding: 35px 45px 0px 0;
+  }
+
+  #tabs .tabs--content__active--nike__hovers p span::before {
+    width: 260.061px;
+    top: 50px;
+  }
+  #tabs .tabs--content__active--nike__love {
+    margin-left: 22px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__love h1 span::before {
+    width: 260.008px;
+    left: 0px;
+  }
+  #tabs .tabs--content__active--nike__fee {
+    margin-left: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__tea {
+    margin-left: 27px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tabs .tabs--content__active--nike__awards h1 {
+    font-size: 18px;
+    margin: -17px 0 20px 112px;
+  }
+  #tabs .tabs--content__active--nike__hover h1 {
+    font-size: 18px;
+    margin: -23px 0 15px 81px;
+  }
+  #tabs .tabs--content__active--nike__hovers h1 {
+    font-size: 18px;
+    margin: 8px 0 10px 80px;
+  }
+  #tabs .tabs--content__active--nike__love h1 {
+    font-size: 18px;
+    margin: 0 0 10px 70px;
+  }
+  #tabs .tabs--bloc {
+    width: 404px;
+  }
+  #tabs .tabs--block {
+    width: 11%;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 322px;
+    height: 1108px;
+  }
+  #tabs .tabs--content__active--nikes__list {
+    width: 322.021px;
+  }
+  #tabs .tabs--content__active--nikes__now h1 {
+    padding: 15px 79px 15px 52px;
+    width: 202px;
+    color: var(--3, #FFF);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.9%;
+    text-transform: capitalize;
+  }
+  }
+@media (max-width: 400px) {
+  #tabs .tabs--content__active--nike {
+    padding: 37px 0 0px 244px;
+  }
+  #tabs .tabs--bloc__description {
+    font-size: 16px;
+  }
+  #tabs .tabs--bloc__cost {
+    font-size: 16px;
+  }
+  #tabs .tabs--bloc__photo {
+    font-size: 16px;
+  }
+  #tabs .tabs--block {
+    width: 27%;
+  }
+  #tabs .tabs--bloc {
+    width: 357px;
+  }
+  #tabs .tabs--content__active--nikes {
+    width: 16rem;
+    height: 1237px;
+    margin-bottom: 110px;
+  }
+  #tabs .tabs--content__active--nikes__not h1 {
+    padding-top: 8px;
   }
 }
-@media(max-width: 576px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+@media (max-width: 376px) {
+  #tabs .tabs--bloc {
+    width: 337px;
   }
 }
-@media(max-width: 450px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+@media (max-width: 320px) {
+  #tabs .tabs--content__active--nikes {
+    width: 12rem !important;
+    height: 1177px;
+  }
+  #tabs .tabs--bloc {
+    width: 285px;
   }
 }
-@media(max-width: 400px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media(max-width: 320px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media(max-width: 1024px) {
-  #tabs {
-
-    .tabs {
-      .tabs1 {
-      }
-
-      &--block {
-      }
-
-      &--bloc {
-
-        &__description {
-        }
-
-        &__cost {
-        }
-
-        &__photo {
-        }
-      }
-
-      &--content {
-
-        &__active {
-
-          &--nike {
-
-            &__nomer {
-
-              img {
-              }
-
-              &--a {
-                h1 {
-                }
-
-                h2 {
-                }
-              }
-            }
-
-            &__duration {
-
-              h1 {
-              }
-
-              h2 {
-              }
-            }
-
-            &__awards {
-
-              h1 {
-
-                span {
-                }
-
-                span::before {
-
-                }
-              }
-
-              h2 {
-
-
-                span {
-
-                }
-              }
-            }
-
-            &__hover {
-
-
-              h1 {
-
-              }
-
-              p {
-
-                span {
-
-                }
-
-                span::before {
-
-                }
-              }
-            }
-
-            &__hovers {
-
-
-              h1 {
-
-
-                p {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-              }
-
-              &__love {
-
-
-                h1 {
-
-
-                  span {
-                  }
-
-                  span::before {
-
-                  }
-                }
-
-                &--loves {
-
-
-                  h6 {
-
-                  }
-
-                  p {
-                  }
-                }
-
-              }
-
-              &__fee {
-
-
-                h1 {
-
-                }
-
-                &--no {
-
-
-                  h5 {
-
-                  }
-
-                  p {
-
-                    span {
-                    }
-
-                    span::before {
-                    }
-                  }
-                }
-              }
-
-              &__tea {
-
-                h1 {
-
-                }
-
-                p {
-
-                }
-              }
-            }
-
-            &--nikes {
-
-              &__not {
-
-
-                h1 {
-
-
-                  span {
-
-                  }
-                }
-
-                &__nots {
-
-
-                  img {
-
-                  }
-
-                  &--calendar {
-
-                    h5 {
-
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__cat {
-
-                  img {
-                  }
-
-                  &--cast {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-
-                    h6 {
-                    }
-                  }
-                }
-
-                &__study {
-
-                  img {
-                  }
-
-                  &--studies {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__now {
-
-                  h1 {
-
-                    span {
-                    }
-                  }
-                }
-
-                &__eli {
-
-                  &--tu {
-                    h1 {
-                    }
-                  }
-
-                  h3 {
-                  }
-                }
-
-                &__sr {
-
-                  img {
-                  }
-
-                  &--srs {
-
-                    h5 {
-                    }
-
-                    p {
-                    }
-                  }
-                }
-
-                &__list {
-                }
-
-                &__wat {
-
-                  h1 {
-                  }
-                }
-              }
-            }
-
-            &__actives {
-
-              h1 {
-
-                span {
-                }
-              }
-
-              p {
-              }
-            }
-
-            &__photo {
-
-              &--photo1 {
-                img {
-                }
-              }
-
-              &--photo2 {
-                img {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+        

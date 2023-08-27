@@ -101,8 +101,8 @@
   }
 }
 @media (max-width: 1024px) {
-  #our .our--text h1{
-    width: 177px;
+  #our .our--text h1 {
+    width: 204px;
     font-size: 38px;
     font-weight: 500;
   }
@@ -135,9 +135,18 @@
     margin-top: 50px;
   }
 }
+@media (max-width: 992px) {
+  #about .about--title {
+    margin: -157px -90px 0 0;
+  }
+
+}
 @media (max-width: 768px) {
   #our .our--title__miss--mr {
     margin-top: 70px;
+  }
+  #about .about--title {
+    margin: -55px -90px 0 0;
   }
 }
 @media (max-width: 576px) {
@@ -149,9 +158,21 @@
   }
   #our .our--title__mister--mr {
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
   #our .our--title__mister--kl {
     flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  #our .our--text h1 {
+    margin: 0;
+    color: var(--text-212121, #212121);
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
   }
   #our .our--title__mister--mr__fotos h1{
     color: #000;
@@ -218,36 +239,36 @@
   #our .our--title__mister--kl {
     margin-top: 0;
   }
-  #our .our--text h1 {
-    width: 177px;
-    margin: 0 0 0 -396px;
 
-    color: var(--text-212121, #212121);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 32px;
-  }
 }
 @media (max-width: 450px) {
   #our .our--title__miss--mr {
     margin-top: 40px;
   }
   #our .our {
-    padding: 20% 0 0 0;
-  }
-  #our .our--text h1 {
-    margin: 0 0 0 -285px;
+    padding: 20% 0 40% 0;
   }
 }
 @media (max-width: 400px) {
-  #our .our--text h1 {
-    margin: 0 0 0 -240px;
+  #about .about--title h5 {
+    width: 359px;
+  }
+  #about .about--title p {
+    width: 346px;
+  }
+  #our .our--title__mister--kl__fotos {
+    margin-left: 0;
   }
 }
 @media (max-width: 376px) {
-  #our .our--text h1 {
-    margin: 0 0 0 -215px;
+  #about .about--title h1 {
+    width: 227px;
+  }
+  #about .about--title h5 {
+    width: 308px;
+  }
+  #about .about--title p {
+    width: 329px;
   }
 }
 @media (max-width: 320px) {
@@ -260,13 +281,15 @@
   #our .our--title__mister--mr__fotos img{
 width: 100%;
   }
-  #our .our--text h1 {
-    margin: 0 0 0 -168px;
+  #about .about--title h5 {
+    width: 275px;
   }
   #our .our--title__mister--kl__fotos img{
     width: 100%;
   }
-
+  #about .about--title p {
+    width: 274px;
+  }
 }
 
 
