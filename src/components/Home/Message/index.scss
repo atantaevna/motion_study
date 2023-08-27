@@ -1238,11 +1238,22 @@
 
                     &__info {
 
-                        h1 {}
+                        h1 {
+                            font-size: 24px;
+                        }
 
                         h4 {}
 
-                        h2 {}
+                        h2 {
+                            color: #FFF;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin: 2vh 0;
+                            display: flex;
+                            align-items: center;
+                        }
                     }
 
                     &__telegram {
@@ -1260,13 +1271,12 @@
                 }
 
                 &--line {
-                    height: 513px;
+                    height: 40px;
                     width: 258px;
-                    right: -43px;
-                    top: -498px;
-                    border: 1px solid #bbbbbbc8;
-                    // box-shadow: 5px 8px 26px 0px rgba(86, 9, 187, 0.10);
-
+                    right: -2px;
+                    top: -20px;
+                    border: 1px solid rgba(187, 187, 187, 0.7843137255);
+                    margin: 0 0 170px 0;
                     div {
                         left: -23px;
                         bottom: 19px;
@@ -1436,8 +1446,14 @@
             .message {
 
                 &--input {
+                    height: 500px;
+                    width: 283px;
 
-                    button {}
+                    button {
+                            width: 72px;
+                            padding: 9px 60px 9px 56px;
+                            margin: 28px 0 0 17px;
+                    }
 
                     &:hover {}
 
@@ -1456,23 +1472,33 @@
                     }
 
                     &__help {
-                        input {}
+                        input {
+                            margin-right: 0px;
+                        }
                     }
-
                     h1 {}
 
                     input {}
                 }
 
                 &--contact {
-
+                        height: 480px;
+                        width: 284px;
                     &__info {
 
                         h1 {}
 
                         h4 {}
 
-                        h2 {}
+                        h2 {    color: #FFF;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin: 2vh 0;
+                            display: flex;
+                            align-items: center;
+                        }
                     }
 
                     &__telegram {

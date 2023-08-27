@@ -6,7 +6,7 @@
     margin-top: 100px;
     &--other{
       h1{
-        width: 74%;
+        width: 85%;
         color: #212121;
         font-size: 50px;
         font-style: normal;
@@ -15,7 +15,7 @@
         text-transform: capitalize;
       }
       p{
-        width: 83%;
+        width: 107%;
         color: var(--text-1212, #010D39);
         font-size: 20px;
         font-style: normal;
@@ -25,7 +25,7 @@
       }
       &__fot{
         img{
-          width: 90%;
+          width: 100%;
           transition: 1.2s;
         }
       }
@@ -351,7 +351,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 9px;
-    margin: 0 0 0 -5px;
+    margin: 0 0 0 105px;
   }
   #block .block--time__helps--overs{
     display: flex;
@@ -360,7 +360,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 9px;
-    margin: 0 0 0 -93px;
+    margin: 0 0 0 15px;
   }
   #block .block--time__help--over__we h1 {
     color: var(--text-1212, #010D39);
@@ -398,8 +398,23 @@
     gap: 24px;
     margin: 0 20px 0 0;
   }
+
 }
 @media (max-width: 320px) {
+  #exams .exams--title p {
+    width: 287px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 40px 0;
+    text-align: start;
+  }
+  #exams .exams--title h1 {
+    width: 287px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: start;
+  }
   #block .block--other p {
     width: 282px;
   }
@@ -411,16 +426,18 @@
     margin: 0 0 0 -90px;
   }
   #block .block--time__help--over {
-    margin: 0;
-    width: 240px;
+    margin: -2px 0 0 7px;
+    width: 245px;
+    height: 100px;
   }
   #block .block--other__fot img {
     margin: 0 0 40px 0;
     width: 99%;
   }
   #block .block--time__helps--overs {
-    margin: 0;
-    width: 240px;
+    margin: -2px 0 0 5px;
+    width: 245px;
+    height: 100px;
   }
   #block .block--time__help--over__we img {
     width: 40px;
@@ -430,7 +447,7 @@
   #block .block--time__helps--overs__he img {
     width: 40px;
     height: 40px;
-    margin: -40px 0 0 1px;
+    margin: -2px 0 0 1px;
   }
   #block .block--time__help--over__we p {
     width: 230px;
@@ -451,7 +468,7 @@
   #block .block--time__helps--overs__he h1 {
     color: var(--text-1212, #010D39);
     font-size: 26px;
-    width: 86%;
+    width: 82%;
     margin: -39px 0 0px 55px;
   }
   #block .block--time {
@@ -464,5 +481,4 @@
     justify-content: space-between;
     margin-top: 30px;
   }
-
 }
